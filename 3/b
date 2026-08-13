@@ -1,0 +1,19 @@
+ import java.util.*;
+
+public class StudentRecordname {
+    public static void main(String[] args) {
+        ArrayList<String> s = new ArrayList<>();
+
+        s.add("Priya");
+        s.add("Pavi");
+
+        System.out.println(s);
+    }
+}
+
+
+
+
+
+OUTPUT
+[Priya, Pavi]

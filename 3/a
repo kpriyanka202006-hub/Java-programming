@@ -1,0 +1,43 @@
+ import java.util.Scanner;
+
+public class Employeename {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter first Employee name:");
+        String name1 = sc.nextLine();
+
+        System.out.println("Enter second Employee name:");
+        String name2 = sc.nextLine();
+
+        System.out.println("Length: " + name1.length());
+        System.out.println("Uppercase: " + name1.toUpperCase());
+        System.out.println("Lowercase: " + name1.toLowerCase());  
+
+        if (name1.equals(name2)) {
+            System.out.println("Names are equal");
+        } else {
+            System.out.println("Names are not equal");
+        }
+
+        sc.close();
+    }
+}
+
+
+
+
+
+
+
+
+
+OUTPUT
+Enter first Employee name:
+Priyanka
+Enter second Employee name:
+Pavithra
+Length: 8
+Uppercase: PRIYANKA
+Lowercase: priyanka
+Names are not equal

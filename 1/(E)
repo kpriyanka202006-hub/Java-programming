@@ -1,0 +1,34 @@
+class Hospital {
+    void hospital() {
+        System.out.println("Hospital");
+    }
+}
+
+class Doctor extends Hospital {
+    void doctor() {
+        System.out.println("Doctor");
+    }
+}
+
+class Patient extends Doctor {
+    void patient() {
+        System.out.println("Patient");
+    }
+
+    public static void main(String[] args) {
+        Patient p = new Patient();
+        p.hospital();
+        p.doctor();
+        p.patient();
+    }
+}
+
+
+
+
+
+OUTPUT
+----------------------------------
+Hospital
+Doctor
+Patient

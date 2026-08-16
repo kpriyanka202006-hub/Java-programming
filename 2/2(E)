@@ -1,0 +1,31 @@
+class Student {
+    void display() {
+        System.out.println("Student Information");
+    }
+}
+
+class Details extends Student {
+    @Override
+    void display() {
+        System.out.println("Name: Priyanka");
+        System.out.println("Course: AI & DS");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Details d = new Details();
+        d.display();
+    }
+}
+
+
+
+
+
+
+
+OUTPUT
+----------------------------------
+Name: Priyanka
+Course: AI & DS

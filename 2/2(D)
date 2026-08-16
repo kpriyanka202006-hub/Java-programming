@@ -1,0 +1,21 @@
+interface Bonus {
+    double calculate(double salary);
+}
+
+public class Salary {
+    public static void main(String[] args) {
+        Bonus b = salary -> salary * 0.10;
+
+        double salary = 30000;
+        System.out.println("Salary: " + salary);
+        System.out.println("Bonus: " + b.calculate(salary));
+    }
+}
+
+
+
+
+OUTPUT
+------------------------------------
+Salary: 30000.0
+Bonus: 3000.0

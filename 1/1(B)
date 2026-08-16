@@ -1,0 +1,23 @@
+class Student {
+    public static void main(String[] args) {
+        int[] marks = {80, 75, 90, 85, 70};
+        int total = 0;
+
+        for (int m : marks)
+            total += m;
+
+        double average = total / (double) marks.length;
+
+        System.out.println("Total: " + total);
+        System.out.println("Average: " + average);
+    }
+}
+
+
+
+
+
+OUTPUT
+-----------------------------------
+Total: 400
+Average: 80.0

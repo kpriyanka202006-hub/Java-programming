@@ -1,0 +1,36 @@
+package employee;
+
+public class Employee {
+    private int id;
+    private String name;
+
+    public Employee(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public void display() {
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+    }
+}
+import employee.Employee;
+
+public class Main {
+    public static void main(String[] args) {
+        Employee e = new Employee(101, "Priyanka");
+        e.display();
+    }
+}
+
+
+
+
+
+
+
+
+OUTPUT
+------------------------------
+ID: 101
+Name: Priyanka

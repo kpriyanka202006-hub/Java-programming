@@ -1,0 +1,16 @@
+enum OrderStatus {
+    PLACED, SHIPPED, DELIVERED, CANCELLED
+}
+
+public class Shopping {
+    public static void main(String[] args) {
+        OrderStatus status = OrderStatus.SHIPPED;
+        System.out.println("Order Status: " + status);
+    }
+}
+
+
+
+OUTPUT
+------------------------------------
+Order Status: SHIPPED
